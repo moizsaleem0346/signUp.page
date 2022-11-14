@@ -1,0 +1,95 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    
+} 
+.containerfirst{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+ 
+   
+}
+.containermadia{
+    padding-left: 30px;
+    border-radius: 4px;
+}
+.content{
+    background-color: blue;
+    width: 350px;
+    height: 600px;
+    color: white;
+    /* padding-top: 50px; */
+    padding-left: 10px;
+    position: relative;
+}
+.para{
+    padding-top: 3px;
+padding-left:20px;
+padding-bottom: 26;
+line-height: 30px;
+/* letter-spacing: 1.2px; */
+line-height: 30px;
+}
+.content h1{
+    font-family: Arial,;
+    font-size: 40px;
+   padding-top: 60px;
+   padding-left: 15px;
+    margin-top: 6%;
+    letter-spacing: 1px;
+}
+.containerpara{
+    background-color: blueviolet;
+    font-family: Arial,;
+    width: 325px;
+    border-radius: 10px;
+      padding: 10px;
+    padding: 12px;
+    margin-top: 100px;
+    letter-spacing: 1px;
+}
+.container2{
+  
+   
+    padding-top: 10px;
+}
+/* 
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 0px) { 
+    .containermadia{
+        display: none;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .containermadia{
+        display: block;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .containermadia{
+        display: block;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .containermadia{
+        display: block;
+    }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .containermadia{
+        display: block;
+    }
+ }
